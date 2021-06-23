@@ -8,7 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class CucumberRunner {
+public class StepDefinitions {
 	WebDriver driver;
 
 	@Given("^I am on facebook home page$")
@@ -32,5 +32,4 @@ public class CucumberRunner {
 		System.out.println("I can see signup page now");
 		driver.close();
 	}
-
 }
